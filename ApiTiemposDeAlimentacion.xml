@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiTiemposDeAlimentacion</name>
+    </assembly>
+    <members>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.ModulosHabitacionalesController.GetModulosHabitacionales">
+            <summary>
+            Obtener los modulos habitacionales de los servicios de cortadores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.PersonalTiemposDeAlimentacionController.GetPersonalTiemposDeAlimentacion">
+            <summary>
+            Obtener los tiempos de alimentacion por personal
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.PersonalTiemposDeAlimentacionController.CreatePersonalTiemposDeAlimentacion(ApiTiemposDeAlimentacion.Models.Dtos.PersonalTiemposDeAlimentacionCreateDto)">
+            <summary>
+            Crear tiempo de alimentación 
+            </summary>
+            <param name="personalTiemposDeAlimentacionCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.PersonalTiemposDeAlimentacionController.ActualizarPersonalTiemposDeAlimentacion(System.Int32,ApiTiemposDeAlimentacion.Models.Dtos.PersonalTiemposDeAlimentacionUpdateDto)">
+            <summary>
+            Actualizar tiempo de alimentación
+            </summary>
+            <param name="PersonalTiemposDeAlimentacionID"></param>
+            <param name="personalTiemposDeAlimentacionUpdateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.PersonalTiemposDeAlimentacionController.EliminarPersonalTiemposDeAlimentacion(System.Int32)">
+            <summary>
+            Eliminar tiempo de alimentación
+            </summary>
+            <param name="PersonalTiemposDeAlimentacionID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.TiemposDeAlimentacionController.GetTiemposDeAlimentacion">
+            <summary>
+            Obtener los tiempos de alimentacion en base al horario 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Obtener usuarios 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.UsuariosController.GetUsuarioByID(System.Int32)">
+            <summary>
+            Obtener usuario por ID
+            </summary>
+            <param name="IdUsuario">Id Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.UsuariosController.Registro(ApiTiemposDeAlimentacion.Models.Dtos.UsuarioAuthDto)">
+            <summary>
+            Registro de Usuario
+            </summary>
+            <param name="usuarioAuthDto">Numero de Empleado, Usuario y Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiTiemposDeAlimentacion.Controllers.UsuariosController.Login(ApiTiemposDeAlimentacion.Models.Dtos.UsuarioAuthLoginDto)">
+            <summary>
+            Login de Usuario
+            </summary>
+            <param name="usuarioAuthLoginDto">Usuario y Contraseña</param>
+            <returns>Bearer Token</returns>
+        </member>
+    </members>
+</doc>
