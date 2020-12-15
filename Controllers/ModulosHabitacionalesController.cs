@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiTiemposDeAlimentacion.Controllers
 {
-   [Authorize]
+   [Authorize] 
    //[AllowAnonymous]
    [Route("api/ModulosHabitacionales")]
    [ApiController]
