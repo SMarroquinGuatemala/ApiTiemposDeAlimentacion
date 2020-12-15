@@ -16,7 +16,7 @@ namespace ApiTiemposDeAlimentacion.Controllers
    //[AllowAnonymous]
    [Route("api/ModulosHabitacionales")]
    [ApiController]
-   [ApiExplorerSettings(GroupName = "ApiModulosHabitacionales")]
+   [ApiExplorerSettings(GroupName = "ApiModulosHabitacionales")] 
    [ProducesResponseType(StatusCodes.Status400BadRequest)]
    public class ModulosHabitacionalesController : Controller
    {
